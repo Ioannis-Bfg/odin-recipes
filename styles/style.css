@@ -1,0 +1,48 @@
+a {
+    color: gray;
+}
+body {
+    background-color: rgb(235, 235, 235);
+    color: #1b1b1b;
+    font-family: Roboto,sans-serif;
+}
+.mainpage h2 {
+    text-align: center;
+}
+
+.unordered {
+    text-align: center;
+    color: red;
+}
+.mainpage li {
+    text-align: center;
+    list-style-position:inside;
+    list-style:none;
+} 
+.mainpage h1 {
+    color:rgb(115, 168, 202);
+    text-align: center;
+    font-size: 46px;
+}
+
+.image{
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.Ingredients {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    text-align: justify;
+    line-height: 250%;
+}
+
