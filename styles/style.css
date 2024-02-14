@@ -1,32 +1,58 @@
-a {
-    color: gray;
-}
 body {
-    background-color: rgb(235, 235, 235);
-    color: #1b1b1b;
     font-family: Roboto,sans-serif;
-}
-.mainpage h2 {
-    text-align: center;
+    background: #ffebeb;
 }
 
-.unordered {
-    text-align: center;
-    color: red;
+a {
+    color: rgb(255, 255, 255);
+    border: 5px solid rgb(226, 112, 46);
+    border-radius: 5px;
+    background-color: rgb(226, 112, 46);
+    padding: 5px;
+    text-decoration: none;
 }
-.mainpage li {
-    text-align: center;
-    list-style-position:inside;
-    list-style:none;
+
+html,body {
+    margin:0;
+    padding:0;
 } 
-.mainpage h1 {
-    color:rgb(115, 168, 202);
+    
+.card {
+    background-color: rgb(247, 217, 193);
+    border-radius: 15px;
     text-align: center;
-    font-size: 46px;
+    padding: 5px;
+    margin:8px auto;
+    width:flex;
+    color:rgb(51, 51, 51);
+}
+
+.title {
+    margin:0;
+}
+.recipes {
+    margin-top: 40px;
+    width:400px;
+}
+
+.dishes {
+    margin: 20px auto;
+    padding: 20px;
+    width: 420px;
+}
+
+.link {
+    margin-left: 20px;
 }
 
 .image{
     text-align: center;
+
+}
+
+img {
+    border: 8px rgb(226, 112, 46) solid;
+    border-radius: 20px;
 }
 
 h1 {
@@ -35,14 +61,78 @@ h1 {
 
 .Ingredients {
     text-align: center;
+    line-height: 190%;
+}
+
+.Ingredients h2 {
+    background-color: rgb(226, 112, 46);
+    padding: 10px ;
+    width: 200px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 5px;
+    color: rgb(235, 235, 235) ;
 }
 
 ul {
     list-style-type: none;
+    text-align: center;
+    display: inline-block;
+    background-color: rgb(226, 112, 46);
+    border-radius: 10px;
+    color: rgb(235, 235, 235);
+    padding: 20px;
 }
 
-li {
+strong {
     text-align: justify;
     line-height: 250%;
+    border: 4px solid rgb(226, 112, 46);
+    color:rgb(226, 112, 46);
+    padding: 4px;
+    border-radius : 10px ;
 }
 
+.description {
+    background-color: rgb(226, 112, 46);
+    padding: 10px ;
+    width: 200px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 5px;
+    color: rgb(235, 235, 235) ;
+}
+
+.directions {
+    background-color: rgb(226, 112, 46);
+    padding: 10px ;
+    width: 200px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 5px;
+    color: rgb(235, 235, 235) ;
+}
+
+ol {
+    list-style-type: none;
+}
+
+.header {
+    border: 4px black solid;
+    border-radius: 10px;
+    border-color: rgb(226, 112, 46);
+    color: rgb(226, 112, 46);
+    width:250px;
+    padding: 10px;
+    margin: 20px auto;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+.home {
+    margin: 20px;
+}
