@@ -38,12 +38,6 @@ html,body {
     width:400px;
 }
 
-.dishes {
-    margin: 20px auto;
-    padding: 20px;
-    width: 420px;
-}
-
 .link {
     margin-left: 20px;
 }
@@ -138,4 +132,11 @@ ol {
 
 .home {
     margin: 20px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    padding: 20px;
 }
